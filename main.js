@@ -7,7 +7,7 @@ for(i in input)
     var num = input[i];
     var temp = new Array();
     var number = "";
-    console.log(num);
+    //console.log(num);
     while(num>0)
     {
         var a = num%10;
@@ -17,7 +17,7 @@ for(i in input)
     while(temp.length != 0)
     {
         var l = temp.pop();
-        console.log(l);
+        //console.log(l);
         number = number + l
     }
     if(i<size-1)
